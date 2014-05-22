@@ -1,28 +1,26 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The goal for this app is to use the wunderground API to generate accurate forecasts for light conditions in a given ZIP code.  The pap is designed to be utilized by photographers looking for good days to take photographs.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+The app is currently limited to 500 pings per day because that is all I can afford at this time.
+
+Status:
+App has been created.
+
+== To do:
+**Research
+Determine the criteria used to predict atmospheric conditions ideal for photoraphers.
+
+
+
+*The red sky can be attributed to Rayleigh scattering. Basically, blue wavelengths are scattered 10 times more efficiently than red. So, when the sun is setting, the suns rays are coming through a lot of atmosphere. The blue light all gets scattered out of the path and the red light hits our eyeballs. Pollutants and microscopic particles help scatter the light.
+This scattering also explains why the sky is blue!
+
+*http://www.spc.noaa.gov/publications/corfidi/sunset/
+
+The truth is is that tropospheric aerosols --- when present in abundance in the lower atmosphere as they often are over urban and continental areas --- do not enhance sky colors --- they subdue them. Clean air is, in fact, the main ingredient common to brightly colored sunrises and sunsets.
+
+Because air circulation is more sluggish during the summer, and because the photochemical reactions which result in the formation of smog and haze proceed most rapidly at that time of the year, late fall and winter are the most favored times for sunrise and sunset viewing over most of the United States. Pollution climatology also largely explains why the deserts and tropics are noted for their twilight hues: air pollution in these regions is, by comparison, minimal.
+
+To produce vivid sunset colors, a cloud must be high enough to intercept "unadulterated" sunlight...i.e., light that has not suffered attenuation and/or color loss by passing through the atmospheric boundary layer. (The boundary layer is the layer near the surface which contains most of the atmosphere's dust and haze). This largely explains why spectacular shades of scarlet, orange, and red most often grace cirrus and altocumulus layers, but only rarely low clouds such as stratus or stratocumulus. When low clouds do take on vivid hues, as they often do over the open ocean in the tropics, it is a clue that the lower atmosphere is very clean and therefore more transparent than usual.
